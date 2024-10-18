@@ -11,13 +11,13 @@ body {
 
 h2,
 h3 {
-    color: #00a2c6;
+    color: green;
 }
 
 footer {
     padding: 20px;
     color: white;
-    background-color: #00a2c6;
+    background-color: green;
 
     text-align: center;
     font-weight: bold;
@@ -102,4 +102,12 @@ aside {
 
 header {
     display: inline;
+}
+
+@media screen and (max-width: 1000px) {
+
+    #content,
+    aside {
+        width: 100%;
+    }
 }
